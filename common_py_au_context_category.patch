@@ -1,0 +1,12 @@
+diff --git a/fastchat/llm_judge/common.py b/fastchat/llm_judge/common.py
+index d2640d6..92f73d3 100644
+--- a/fastchat/llm_judge/common.py
++++ b/fastchat/llm_judge/common.py
+@@ -47,6 +47,7 @@ temperature_config = {
+     "stem": 0.1,
+     "humanities": 0.1,
+     "arena-hard-200": 0.0,
++    "au_context": 0.7,
+ }
+ 
+ reverse_model_map = {
